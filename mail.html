@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="form-section">
+      <div class="container">
+        <h1 class="title-form">Форма зв’язку</h1>
+        <p class="text-form">Отримайте персоналізовану консультацію</p>
+        <form
+          class="form"
+          action="https://formsubmit.co/6weeks.13h@gmail.com"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_subject"
+            value="6weeks - Форма заповнена"
+          />
+          <input type="hidden" name="_captcha" value="false" />
+          <div class="wrap-input">
+            <label for="name">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.4444 13.2223V11.8396C12.4444 10.3123 11.2257 9.07413 9.72221 9.07413H4.27776C2.77432 9.07413 1.55554 10.3123 1.55554 11.8396V13.2223M9.72221 3.54326C9.72221 5.07057 8.50343 6.3087 6.99999 6.3087C5.49654 6.3087 4.27776 5.07057 4.27776 3.54326C4.27776 2.01596 5.49654 0.777832 6.99999 0.777832C8.50343 0.777832 9.72221 2.01596 9.72221 3.54326Z"
+                  stroke="#8E9497"
+                  stroke-width="1.16667"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Вкажіть ім’я</label
+            >
+            <input type="text" id="name" name="name" placeholder="Ваше ім’я" />
+          </div>
+
+          <div class="wrap-input">
+            <label for="email"
+              ><svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.33333 2.33333L6.05719 7.05719C6.57789 7.57789 7.42211 7.57789 7.94281 7.05719L12.6667 2.33333M1.66667 11.3333H12.3333C12.7015 11.3333 13 11.0349 13 10.6667V2.66667C13 2.29848 12.7015 2 12.3333 2H1.66667C1.29848 2 1 2.29848 1 2.66667V10.6667C1 11.0349 1.29848 11.3333 1.66667 11.3333Z"
+                  stroke="#8E9497"
+                  stroke-width="1.17"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Ваша електронна адреса</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ваш email"
+              required
+            />
+          </div>
+
+          <div class="wrap-input">
+            <label for="message"
+              ><svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 10.1765L0.586343 9.76281C0.476634 9.87252 0.415 10.0213 0.415 10.1765H1ZM10.1765 1L10.5901 0.586343C10.3617 0.357886 9.99127 0.357886 9.76281 0.586343L10.1765 1ZM13 3.82353L13.4137 4.23719C13.6421 4.00873 13.6421 3.63833 13.4137 3.40987L13 3.82353ZM3.82353 13V13.585C3.97868 13.585 4.12748 13.5234 4.23719 13.4137L3.82353 13ZM1 13H0.415C0.415 13.3231 0.676913 13.585 1 13.585L1 13ZM6.64706 12.415C6.32397 12.415 6.06206 12.6769 6.06206 13C6.06206 13.3231 6.32397 13.585 6.64706 13.585V12.415ZM12.6471 13.585C12.9701 13.585 13.2321 13.3231 13.2321 13C13.2321 12.6769 12.9701 12.415 12.6471 12.415V13.585ZM1.41366 10.5901L10.5901 1.41366L9.76281 0.586343L0.586343 9.76281L1.41366 10.5901ZM9.76281 1.41366L12.5863 4.23719L13.4137 3.40987L10.5901 0.586343L9.76281 1.41366ZM12.5863 3.40987L3.40987 12.5863L4.23719 13.4137L13.4137 4.23719L12.5863 3.40987ZM3.82353 12.415H1V13.585H3.82353V12.415ZM1.585 13V10.1765H0.415V13H1.585ZM7.64517 3.5313L10.4687 6.35483L11.296 5.52752L8.47248 2.70399L7.64517 3.5313ZM6.64706 13.585H12.6471V12.415H6.64706V13.585Z"
+                  fill="#8E9497"
+                />
+              </svg>
+              Ваше повідомлення</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Повідомлення"
+            ></textarea>
+          </div>
+
+          <button class="form-btn" type="submit">Надіслати</button>
+        </form>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
